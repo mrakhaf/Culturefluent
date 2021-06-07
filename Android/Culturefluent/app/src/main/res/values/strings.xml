@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Culturefluent</string>
+    <string name="info">Aplikasi ini dibuat sebagai bagian dari project akhir Akademi Bangkit (Kelompok B21-CAP0369)
+        \n
+        \n
+        \n
+        \n
+        C0030154 Antonius Yanuar Kristianto\n
+        M2372259 Muhammad Rakha Firdaus\n
+        M2372261 Bintang Farhandika Editya\n
+        \n
+        \n
+        \n
+        \n
+        \n
+        \n
+        credit\n
+        home-background https://unsplash.com/photos/B04Xpnu5JQ4
+    </string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+<!--    <string name="home_desc">Classify Indonesian \ntraditional musical \ninstruments</string>-->
+    <string name="home_desc">Alat Musik Tradisional \nIndonesia</string>
+<!--    <string name="no_image">Take a picture \nor choose from gallery</string>-->
+    <string name="no_image">Ambil gambar \natau pilih dari galeri</string>
+<!--    <string name="examine">examine</string>-->
+    <string name="examine">cek jawaban</string>
+<!--    <string name="musical_instrument_name">Musical Instrument Name</string>-->
+    <string name="musical_instrument_name">Nama Alat Musik</string>
+<!--    <string name="report">report</string>-->
+    <string name="report">Laporkan</string>
+<!--    <string name="please_report_wisely">Please report wisely.</string>-->
+<!--    <string name="please_report_wisely">Tolong laporkan dengan bijak.</string>-->
+    <string name="please_report_wisely"></string>
+
+</resources>

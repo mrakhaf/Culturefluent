@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="id.co.culturefluent.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_classifyobjectFragment"
+            app:destination="@id/classifyobjectFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_encyFragment"
+            app:destination="@id/encyFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_infoFragment"
+            app:destination="@id/infoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/classifyobjectFragment"
+        android:name="id.co.culturefluent.ui.classifyobject.ClassifyobjectFragment"
+        android:label="fragment_classifyobject"
+        tools:layout="@layout/fragment_classifyobject" >
+        <action
+            android:id="@+id/action_classifyobjectFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/encyFragment"
+        android:name="id.co.culturefluent.ui.ency.EncyFragment"
+        android:label="fragment_ency"
+        tools:layout="@layout/fragment_ency" >
+        <action
+            android:id="@+id/action_encyFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/reportFragment"
+        android:name="id.co.culturefluent.ui.report.ReportFragment"
+        android:label="fragment_report"
+        tools:layout="@layout/fragment_report" />
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="id.co.culturefluent.ui.detail.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" >
+        <action
+            android:id="@+id/action_detailFragment_to_reportFragment"
+            app:destination="@id/reportFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="id.co.culturefluent.ui.home.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+</navigation>
