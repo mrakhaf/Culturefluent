@@ -70,10 +70,12 @@
             <com.makeramen.roundedimageview.RoundedImageView
                 android:id="@+id/iv_instrument"
                 android:layout_width="0dp"
-                android:layout_height="380dp"
+                android:layout_height="wrap_content"
+                android:maxHeight="380dp"
                 android:layout_marginHorizontal="@dimen/margin_1"
                 android:layout_marginTop="@dimen/margin_1"
-                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
                 android:src="@drawable/foto_angklung"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -190,6 +192,7 @@
 
                 <RadioButton
                     android:id="@+id/r_a"
+                    android:textColor="@color/black"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/nunito"
@@ -198,14 +201,16 @@
 
                 <RadioButton
                     android:id="@+id/r_b"
+                    android:textColor="@color/black"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
                     android:fontFamily="@font/nunito"
+                    android:layout_height="wrap_content"
                     android:text="dasdasdasdas"
                     android:textSize="16sp" />
 
                 <RadioButton
                     android:id="@+id/r_c"
+                    android:textColor="@color/black"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/nunito"
@@ -214,9 +219,10 @@
 
                 <RadioButton
                     android:id="@+id/r_d"
+                    android:textColor="@color/black"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
                     android:fontFamily="@font/nunito"
+                    android:layout_height="wrap_content"
                     android:text="dasdasdasdas"
                     android:textSize="16sp" />
             </RadioGroup>

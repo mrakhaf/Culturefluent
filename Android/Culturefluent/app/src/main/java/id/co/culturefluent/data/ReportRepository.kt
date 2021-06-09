@@ -7,6 +7,6 @@ import javax.inject.Inject
 class ReportRepository @Inject constructor(
     private val reportDataSource: ReportDataSource
 ) {
-    suspend fun report(part: Map<String, RequestBody>) =
-        performGetRealValueOperation { reportDataSource.report(part) }
+    suspend fun report(body: RequestBody, name:String) =
+        performGetRealValueOperation { reportDataSource.report(body, name) }
 }

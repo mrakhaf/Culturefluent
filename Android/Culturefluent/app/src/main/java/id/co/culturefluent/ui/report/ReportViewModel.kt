@@ -21,10 +21,10 @@ class ReportViewModel @ViewModelInject constructor(
     private val _result = MutableLiveData<Resource<String>>()
     val result : LiveData<Resource<String>> = _result
 
-    fun report(part: Map<String, RequestBody>){
+    fun report(body: RequestBody, name:String){
         _result.value = Resource.loading()
         viewModelScope.launch {
-            _result.value = repository.report(part)
+            _result.value = repository.report(body,name)
         }
     }
 }

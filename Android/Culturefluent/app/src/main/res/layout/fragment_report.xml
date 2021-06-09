@@ -91,12 +91,18 @@
                 android:layout_marginHorizontal="@dimen/margin_2"
                 android:layout_marginTop="10dp"
                 android:hint="@string/musical_instrument_name"
+                app:boxStrokeColor="@color/black"
+                app:hintTextColor="@color/black"
+                app:helperTextTextColor="@color/black"
+                app:placeholderTextColor="@color/black"
+                android:textColorHint="@color/black"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tv_desc">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/tie_name"
+                    android:textColor="@color/black"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
 

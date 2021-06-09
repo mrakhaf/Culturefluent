@@ -50,7 +50,7 @@ class ReportFragment : Fragment() {
         binding.btnReport.setOnClickListener {
             if (!binding.tieName.text.isNullOrBlank()) {
 //                SnackBin.show(binding.root,"Thank you for your report :)")
-                report(image, name)
+                report(image, binding.tieName.text.toString())
             } else {
 //                SnackBin.show(binding.root,"Please fill in the correct name of the musical instrument!")
                 SnackBin.show(binding.root, "Isikan nama alat musik yang benar!")
@@ -93,17 +93,22 @@ class ReportFragment : Fragment() {
 //
 //        val name = RequestBody.create(MediaType.parse("multipart/form-data"), name)
 
-        val part: HashMap<String, RequestBody> = HashMap()
-        val requestFile = RequestBody.create(
+//        val part: HashMap<String, RequestBody> = HashMap()
+//        val requestFile = RequestBody.create(
+//            MediaType.parse("application/octet"),
+//            File(image)
+//        )
+//        val name = RequestBody.create(MediaType.parse("text/plain"), name)
+//
+//        part["img"] = requestFile
+//        part["name"] = name
+
+        val requestBody = RequestBody.create(
             MediaType.parse("application/octet"),
             File(image)
         )
-        val name = RequestBody.create(MediaType.parse("text/plain"), name)
+        viewModel.report(requestBody,name)
 
-        part["img"] = requestFile
-        part["name"] = name
-
-        viewModel.report(part)
     }
 
     private fun loadingState(){

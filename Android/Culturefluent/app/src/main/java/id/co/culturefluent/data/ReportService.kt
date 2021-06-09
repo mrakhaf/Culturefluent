@@ -14,9 +14,10 @@ interface ReportService {
 //                       @Part("name") name: RequestBody
 //    ) : Response<RootResponse<List<String>>>
 
-    @Multipart
-    @POST("report_error")
-    suspend fun report(@PartMap part: Map<String, @JvmSuppressWildcards RequestBody>
-    ) : Response<RootResponse<List<String>>>
+//    @POST("report_error")
+//    suspend fun report(@Header("content-type") contentType : String,
+//                        @Body body: RequestBody) : Response<RootResponse<List<String>>>
 
+    @POST("report_error")
+    suspend fun report(@Body body: RequestBody,@Query("name") name:String) : Response<RootResponse<List<String>>>
 }

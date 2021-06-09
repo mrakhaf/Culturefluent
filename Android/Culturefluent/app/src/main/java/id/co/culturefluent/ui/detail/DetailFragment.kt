@@ -50,6 +50,7 @@ class DetailFragment : Fragment() {
             tvInstrument.text = item.name
             tvDesc.text =item.desc
             tvDescQuiz.text = item.question
+
             rA.text = item.choices[0]
             rB.text = item.choices[1]
             rC.text = item.choices[2]

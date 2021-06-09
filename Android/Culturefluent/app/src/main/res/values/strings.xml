@@ -1,22 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Culturefluent</string>
-    <string name="info">Aplikasi ini dibuat sebagai bagian dari project akhir Akademi Bangkit (Kelompok B21-CAP0369)
-        \n
-        \n
-        \n
-        \n
-        C0030154 Antonius Yanuar Kristianto\n
-        M2372259 Muhammad Rakha Firdaus\n
-        M2372261 Bintang Farhandika Editya\n
-        \n
-        \n
-        \n
-        \n
-        \n
-        \n
-        credit\n
-        home-background https://unsplash.com/photos/B04Xpnu5JQ4
+    <string name="info">
+        \n<b>Mengenal nama alat musik tradisional Indonesia</b>
+        \n .
+        \n .
+        \n<b>Classify Object</b>
+        \nDeteksi nama alat musik tradisional Indonesia pada foto yang kamu ambil.
+        \nLihat detail dari alat musik tradisional tersebut, dan jawab Quiz-nya.
+        \n .
+        \n .
+        \n<b>Encyclopedia</b>
+        \nInformasi singkat tentang alat musik tradisional Indonesia.
+        \n .
+        \n .
+        \n .
+        \n .
+        \n .
+        \n .
+        \n .
+        \n .
+        \n<b>Aplikasi ini dibuat sebagai bagian dari project akhir Akademi Bangkit (Kelompok B21-CAP0369)</b>
+        \n .
+        \nC0030154 Antonius Yanuar Kristianto
+        \nM2372259 Muhammad Rakha Firdaus
+        \nM2372261 Bintang Farhandika Editya
+        \n .
+        \n .
+        \n .
+        \n .
+        \n<b>credit</b>
+        \n .
+        \nhttps://unsplash.com/photos/B04Xpnu5JQ4
+        \n .
+        \nIndonesiaKaya
+        \n .
+        \nkebudayaan.kemendikbud.go.id
+        \n .
+        \njabar.tribunnews.com
+        \n .
+        \nNeil Sorrell. A Guide to the Gamelan. London: Faber and Faber, 1990. Pp. 97-98.
+        \n .
+        \ninibaru.id
+        \n .
+        \nwasit.id
+        \n .
+        \n1.bp.blogspot.com
+        \n .
+        \nstatic-src.com
+        \n .
+
     </string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
 <!--    <string name="home_desc">Classify Indonesian \ntraditional musical \ninstruments</string>-->
@@ -32,5 +65,6 @@
 <!--    <string name="please_report_wisely">Please report wisely.</string>-->
 <!--    <string name="please_report_wisely">Tolong laporkan dengan bijak.</string>-->
     <string name="please_report_wisely"></string>
+
 
 </resources>
